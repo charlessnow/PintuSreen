@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,12 @@
 		56EF028325836E2E008E3D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EF028125836E2E008E3D30 /* Main.storyboard */; };
 		56EF028525836E30008E3D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EF028425836E30008E3D30 /* Assets.xcassets */; };
 		56EF028825836E30008E3D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EF028625836E30008E3D30 /* LaunchScreen.storyboard */; };
+		A8049A8D70AF7C735DD6F61A /* Pods_PintuSreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA542BF5FCFC1297F998432 /* Pods_PintuSreen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02681FA35326866DBFA9C752 /* Pods-PintuSreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PintuSreen.debug.xcconfig"; path = "Target Support Files/Pods-PintuSreen/Pods-PintuSreen.debug.xcconfig"; sourceTree = "<group>"; };
+		0CD06411019AD33221616736 /* Pods-PintuSreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PintuSreen.release.xcconfig"; path = "Target Support Files/Pods-PintuSreen/Pods-PintuSreen.release.xcconfig"; sourceTree = "<group>"; };
 		56EF027825836E2E008E3D30 /* PintuSreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PintuSreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EF027B25836E2E008E3D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56EF027D25836E2E008E3D30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		56EF028425836E30008E3D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56EF028725836E30008E3D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56EF028925836E30008E3D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA542BF5FCFC1297F998432 /* Pods_PintuSreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PintuSreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8049A8D70AF7C735DD6F61A /* Pods_PintuSreen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				56EF027A25836E2E008E3D30 /* PintuSreen */,
 				56EF027925836E2E008E3D30 /* Products */,
+				B5D6141D9AF0E0B796CDA88F /* Pods */,
+				583D2DCD7F924F92E2B7636E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +63,22 @@
 		56EF027A25836E2E008E3D30 /* PintuSreen */ = {
 			isa = PBXGroup;
 			children = (
+				56EF029825837231008E3D30 /* Foundation */,
+				56EF02992583726E008E3D30 /* Launch */,
+			);
+			path = PintuSreen;
+			sourceTree = "<group>";
+		};
+		56EF029825837231008E3D30 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		56EF02992583726E008E3D30 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
 				56EF027B25836E2E008E3D30 /* AppDelegate.swift */,
 				56EF027D25836E2E008E3D30 /* SceneDelegate.swift */,
 				56EF027F25836E2E008E3D30 /* ViewController.swift */,
@@ -64,7 +87,24 @@
 				56EF028625836E30008E3D30 /* LaunchScreen.storyboard */,
 				56EF028925836E30008E3D30 /* Info.plist */,
 			);
-			path = PintuSreen;
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		583D2DCD7F924F92E2B7636E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEA542BF5FCFC1297F998432 /* Pods_PintuSreen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5D6141D9AF0E0B796CDA88F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02681FA35326866DBFA9C752 /* Pods-PintuSreen.debug.xcconfig */,
+				0CD06411019AD33221616736 /* Pods-PintuSreen.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56EF028C25836E30008E3D30 /* Build configuration list for PBXNativeTarget "PintuSreen" */;
 			buildPhases = (
+				DBF420EE4D712236216FA62C /* [CP] Check Pods Manifest.lock */,
 				56EF027425836E2E008E3D30 /* Sources */,
 				56EF027525836E2E008E3D30 /* Frameworks */,
 				56EF027625836E2E008E3D30 /* Resources */,
+				AFCCD85780B6597C6C1D301A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +173,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFCCD85780B6597C6C1D301A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PintuSreen/Pods-PintuSreen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PintuSreen/Pods-PintuSreen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PintuSreen/Pods-PintuSreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF420EE4D712236216FA62C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PintuSreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56EF027425836E2E008E3D30 /* Sources */ = {
@@ -283,16 +367,20 @@
 		};
 		56EF028D25836E30008E3D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02681FA35326866DBFA9C752 /* Pods-PintuSreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = WP562Z93Y4;
 				INFOPLIST_FILE = PintuSreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = CharlesLiu.PintuSreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -302,16 +390,20 @@
 		};
 		56EF028E25836E30008E3D30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD06411019AD33221616736 /* Pods-PintuSreen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = WP562Z93Y4;
 				INFOPLIST_FILE = PintuSreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = CharlesLiu.PintuSreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
