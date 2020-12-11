@@ -13,6 +13,8 @@
 		56EF028325836E2E008E3D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EF028125836E2E008E3D30 /* Main.storyboard */; };
 		56EF028525836E30008E3D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EF028425836E30008E3D30 /* Assets.xcassets */; };
 		56EF028825836E30008E3D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EF028625836E30008E3D30 /* LaunchScreen.storyboard */; };
+		56EF029B25837E54008E3D30 /* PintuSreenBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EF029A25837E54008E3D30 /* PintuSreenBaseViewController.swift */; };
+		56EF029F25837E72008E3D30 /* PintuSreenHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EF029E25837E72008E3D30 /* PintuSreenHomeViewController.swift */; };
 		A8049A8D70AF7C735DD6F61A /* Pods_PintuSreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA542BF5FCFC1297F998432 /* Pods_PintuSreen.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		56EF028425836E30008E3D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56EF028725836E30008E3D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56EF028925836E30008E3D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EF029A25837E54008E3D30 /* PintuSreenBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintuSreenBaseViewController.swift; sourceTree = "<group>"; };
+		56EF029E25837E72008E3D30 /* PintuSreenHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintuSreenHomeViewController.swift; sourceTree = "<group>"; };
 		EEA542BF5FCFC1297F998432 /* Pods_PintuSreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PintuSreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,7 @@
 		56EF027A25836E2E008E3D30 /* PintuSreen */ = {
 			isa = PBXGroup;
 			children = (
+				56EF029D25837E5B008E3D30 /* Home */,
 				56EF029825837231008E3D30 /* Foundation */,
 				56EF02992583726E008E3D30 /* Launch */,
 			);
@@ -72,6 +77,7 @@
 		56EF029825837231008E3D30 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				56EF029A25837E54008E3D30 /* PintuSreenBaseViewController.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -88,6 +94,14 @@
 				56EF028925836E30008E3D30 /* Info.plist */,
 			);
 			name = Launch;
+			sourceTree = "<group>";
+		};
+		56EF029D25837E5B008E3D30 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				56EF029E25837E72008E3D30 /* PintuSreenHomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		583D2DCD7F924F92E2B7636E /* Frameworks */ = {
@@ -221,6 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EF029F25837E72008E3D30 /* PintuSreenHomeViewController.swift in Sources */,
+				56EF029B25837E54008E3D30 /* PintuSreenBaseViewController.swift in Sources */,
 				56EF028025836E2E008E3D30 /* ViewController.swift in Sources */,
 				56EF027C25836E2E008E3D30 /* AppDelegate.swift in Sources */,
 				56EF027E25836E2E008E3D30 /* SceneDelegate.swift in Sources */,
